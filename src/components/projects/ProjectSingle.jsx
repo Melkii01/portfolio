@@ -15,7 +15,8 @@ const ProjectSingle = ({title, category, image, url}) => {
             <Link to={{
                 pathname: "/projects/" + url
             }}
-                  aria-label="Single Project">
+                  aria-label="Single Project"
+            >
                 <div
                     className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
                     <div>

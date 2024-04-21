@@ -1,6 +1,6 @@
 import {useContext} from 'react';
 import SingleProjectContext from '../../context/SingleProjectContext';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 const ProjectRelatedProjects = () => {
     const {singleProjectData} = useContext(SingleProjectContext);
@@ -13,19 +13,19 @@ const ProjectRelatedProjects = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-10">
                 {singleProjectData.RelatedProject.Projects.map((project) => {
-                    console.log(project)
+                    // console.log(project)
                     return (
-                        <Link to={{
-                            pathname: "/projects/" + project.url
-                        }}
-                        >
+                        // <Link to={{
+                        //     pathname: "/projects/" + project.url
+                        // }}
+                        // >
                             <img
                                 src={project.img}
-                                className="rounded-xl cursor-pointer"
+                                className="rounded-xl"
                                 alt={project.title}
                                 key={project.id}
                             />
-                        </Link>
+                        // </Link>
                     );
                 })}
             </div>

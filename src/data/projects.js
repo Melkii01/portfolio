@@ -7,6 +7,7 @@ import ClubImageMain from '../images/club_4_horse/main.png';
 import SushiImageMain from '../images/sushi/main.png';
 import CappadociaImageMain from '../images/cappadocia/main.png';
 import MacaroonsImageMain from '../images/macaroons/main.png';
+import BurgersImageMain from '../images/burgers/main.png';
 
 export const projectsData = [
     {
@@ -64,10 +65,17 @@ export const projectsData = [
         url: 'cappadocia'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Макаруны',
         category: 'Landing',
         img: MacaroonsImageMain,
         url: 'macaroons'
+    },
+    {
+        id: 9,
+        title: 'Бургеры',
+        category: 'Landing',
+        img: BurgersImageMain,
+        url: 'burgers'
     },
 ];

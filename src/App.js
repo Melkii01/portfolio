@@ -58,6 +58,10 @@ function App() {
                                 path="projects/macaroons"
                                 element={<ProjectSingle/>}
                             />
+                            <Route
+                                path="projects/burgers"
+                                element={<ProjectSingle/>}
+                            />
 
                             <Route path="about" element={<About/>}/>
                             <Route path="contact" element={<Contact/>}/>
