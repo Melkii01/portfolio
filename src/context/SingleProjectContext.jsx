@@ -7,7 +7,8 @@ import {clubProjectData as clubProjectDataJson} from '../data/clubProjectData';
 import {sushiProjectData as sushiProjectDataJson} from '../data/sushiProjectData';
 import {cappadociaProjectData as cappadociaProjectDataJson} from '../data/cappadociaProjectData';
 import {macaroonsProjectData as macaroonsProjectDataJson} from "../data/macaroonsStudioProjectData";
-import {burgersProjectData as  burgersProjectDataJson} from "../data/burgersProjectData";
+import {burgersProjectData as burgersProjectDataJson} from "../data/burgersProjectData";
+import {plantsProjectData as plantsProjectDataJson} from "../data/plantsProjectData";
 
 const SingleProjectContext = createContext();
 
@@ -33,8 +34,10 @@ export const SingleProjectProvider = ({children}) => {
         json = cappadociaProjectDataJson;
     } else if (currentPathHref === 'macaroons') {
         json = macaroonsProjectDataJson;
-    }else if (currentPathHref === 'burgers') {
+    } else if (currentPathHref === 'burgers') {
         json = burgersProjectDataJson;
+    } else if (currentPathHref === 'plants') {
+        json = plantsProjectDataJson;
     }
 
     const [singleProjectData, setSingleProjectData] = useState(

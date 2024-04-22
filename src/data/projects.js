@@ -1,5 +1,6 @@
 // Import images
 import IncomeExpenseImageMain from '../images/spa-expense-income/main.png';
+import PlantsImageMain from '../images/plants/main.png';
 import FreelanceStudioImageMain from '../images/freelance-studio/main.png';
 import TeaImageMain from '../images/tea/main.png';
 import HookahImageMain from '../images/hookah/main.png';
@@ -24,55 +25,62 @@ export const projectsData = [
     },
     {
         id: 2,
+        title: 'Растения',
+        category: 'Angular',
+        img: PlantsImageMain,
+        url: 'plants'
+    },
+    {
+        id: 3,
         title: 'Freelance Studio',
         category: 'Админка',
         img: FreelanceStudioImageMain,
         url: 'freelance-studio'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Чай',
         category: 'Angular',
         img: TeaImageMain,
         url: 'tea'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Кальянная',
         category: 'Landing',
         img: HookahImageMain,
         url: 'hookah'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Клуб 4 коней',
         category: 'Landing',
         img: ClubImageMain,
         url: 'club-4-horse'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Суши',
         category: 'Landing',
         img: SushiImageMain,
         url: 'sushi'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Каппадокия',
         category: 'Landing',
         img: CappadociaImageMain,
         url: 'cappadocia'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Макаруны',
         category: 'Landing',
         img: MacaroonsImageMain,
         url: 'macaroons'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Бургеры',
         category: 'Landing',
         img: BurgersImageMain,

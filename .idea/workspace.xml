@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48ca24c4-c0a5-4bff-ad88-41c20a8d98ab" name="Changes" comment="" />
+    <list default="true" id="48ca24c4-c0a5-4bff-ad88-41c20a8d98ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/data/plantsProjectData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/SingleProjectContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/SingleProjectContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/burgersProjectData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/burgersProjectData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/spa-expense-income/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/spa-expense-income/main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tea/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tea/main.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +64,8 @@
       <workItem from="1713603039825" duration="9285000" />
       <workItem from="1713681016230" duration="3162000" />
       <workItem from="1713684741912" duration="8712000" />
+      <workItem from="1713703199855" duration="3657000" />
+      <workItem from="1713767240787" duration="699000" />
     </task>
     <servers />
   </component>
