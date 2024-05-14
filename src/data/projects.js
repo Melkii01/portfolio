@@ -9,6 +9,7 @@ import SushiImageMain from '../images/sushi/main.png';
 import CappadociaImageMain from '../images/cappadocia/main.png';
 import MacaroonsImageMain from '../images/macaroons/main.png';
 import BurgersImageMain from '../images/burgers/main.png';
+import ArticlesImageMain from '../images/articles/main.png';
 
 export const projectsData = [
     {
@@ -39,48 +40,55 @@ export const projectsData = [
     },
     {
         id: 4,
+        title: 'Статьи',
+        category: 'Angular',
+        img: ArticlesImageMain,
+        url: 'articles'
+    },
+    {
+        id: 5,
         title: 'Чай',
         category: 'Angular',
         img: TeaImageMain,
         url: 'tea'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Кальянная',
         category: 'Landing',
         img: HookahImageMain,
         url: 'hookah'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Клуб 4 коней',
         category: 'Landing',
         img: ClubImageMain,
         url: 'club-4-horse'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Суши',
         category: 'Landing',
         img: SushiImageMain,
         url: 'sushi'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Каппадокия',
         category: 'Landing',
         img: CappadociaImageMain,
         url: 'cappadocia'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Макаруны',
         category: 'Landing',
         img: MacaroonsImageMain,
         url: 'macaroons'
     },
     {
-        id: 10,
+        id: 11,
         title: 'Бургеры',
         category: 'Landing',
         img: BurgersImageMain,
