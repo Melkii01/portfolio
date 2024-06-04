@@ -46,6 +46,23 @@
       <recent name="C:\WEBSTORM\portfolio_MIRZAYANOV\src\data" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +80,8 @@
       <workItem from="1713767240787" duration="699000" />
       <workItem from="1713768209609" duration="340000" />
       <workItem from="1713941470350" duration="1820000" />
+      <workItem from="1715666545728" duration="1675000" />
+      <workItem from="1717516045754" duration="2000" />
     </task>
     <servers />
   </component>
